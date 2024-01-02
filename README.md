@@ -14,10 +14,12 @@ Use split statement to seperate the contents given in the file and store it in a
 ### Step 4:  
 print len(b) to get the word count.
 ## PROGRAM:
+```
 with open("text1.txt","r") as f:
     a=f.read()
     b=a.split()
     print("Word count",len(b))
+```
 ## OUTPUT:
 ![exp 5a op](https://github.com/Vikaash19/Word-count/assets/148514589/eaae9e46-3bfd-4a95-919c-7a7dd517c46a)
 ### TEXT FILE:
